@@ -10,8 +10,8 @@
 
 
  var over = prezzo_intero * 40 / 100;
- var calover = prezzo_intero - calover;
- console.log(calover);
+ var cal_over = prezzo_intero - over;
+ console.log(cal_over);
 
 
  // messaggi in uscita
@@ -23,11 +23,10 @@
          calMin + " euro";
  } else if (age > 65) {
      document.getElementById('exit').innerHTML = "il prezzo scontato è " +
-         calover;
+         cal_over;
 
  } else {
 
-     document.getElementById('exit').innerHTML = " il costo è " +
-         calover;
+     document.getElementById('exit').innerHTML = " il costo è " + prezzo_intero;
 
  }
