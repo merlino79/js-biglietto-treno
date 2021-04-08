@@ -20,13 +20,13 @@
 
  if (age < 18) {
      document.getElementById('exit').innerHTML = "il prezzo con lo sconto del 20% è " +
-         calMin + " euro";
+         calMin.toFixed(2) + " euro";
  } else if (age > 65) {
      document.getElementById('exit').innerHTML = "il prezzo scontato è " +
-         cal_over + " euro";
+         cal_over.toFixed(2) + " euro";
 
  } else {
 
-     document.getElementById('exit').innerHTML = " il costo è di " + prezzo_intero + " euro ";
+     document.getElementById('exit').innerHTML = " il costo è di " + prezzo_intero.toFixed(2) + " euro ";
 
  }
