@@ -23,10 +23,10 @@
          calMin + " euro";
  } else if (age > 65) {
      document.getElementById('exit').innerHTML = "il prezzo scontato è " +
-         cal_over;
+         cal_over + " euro";
 
  } else {
 
-     document.getElementById('exit').innerHTML = " il costo è " + prezzo_intero;
+     document.getElementById('exit').innerHTML = " il costo è di " + prezzo_intero + " euro ";
 
  }
